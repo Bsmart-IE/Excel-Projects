@@ -40,7 +40,7 @@ This dataset comprises 6-months of records on manufacturing defects, capturing k
 
 #### (2) Repair Cost by Defect Type and Location - Stacked Bar Chart
 
-<img src="/Resources/Images/Bar_Chart.PNG" width="850" height="550" alt="Bar_Chart1.PNG">
+<img src="Resources/Images/Bar_Chart.PNG" width="850" height="550" alt="Bar Chart">
 
 - 🛠️ **Excel Features:** Stacked Bar chart that showcases the total repair cost by Defect Type, with each bar segmented by Defect Location costs.
 - 🎨 **Design Choice:** Included labels for the total and segmented values on each bar to emphasize cost distribution across Defect Types and Locations.
