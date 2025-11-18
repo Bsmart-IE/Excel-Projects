@@ -49,7 +49,7 @@ This dataset comprises 6-months of records on manufacturing defects, capturing k
 
 #### (3) Most Significant Defect - Pivot Table
 
-<img src="Resources/Images/Product_Table.PNG.PNG" width="850" height="550" alt="Product_Table1.PNG">
+<img src="Resources/Images/Product_Table.PNG" width="850" height="550" alt="Product_Table1.PNG">
 
 - 🛠️ **Excel Features:** Pivot tables listing product ID by their corresponding repair cost total or defect count.
 - 🎨 **Design Choice:** Incorporated conditional formatting with data bars to better visualize changes in totals.
@@ -58,7 +58,7 @@ This dataset comprises 6-months of records on manufacturing defects, capturing k
 
 #### (4) Repair Cost Breakdown by Severity - Pie Chart
 
-<img src="Resources/Images/Pie_Chart.PNG" width="850" height="550" alt="Pie_Chart1.PNG">
+<img src="Resources/Images/Pie_Chart.PNG" width="650" height="350" alt="Pie_Chart1.PNG">
 
 - 🛠️ **Excel Features:** Pie chart showing the distribution in repair cost among Severity levels.
 - 🎨 **Design Choice:** Assigned familiar color coding to each Severity level to enhance clarity (Critical = Red, Moderate = Orange, Minor = Green).
