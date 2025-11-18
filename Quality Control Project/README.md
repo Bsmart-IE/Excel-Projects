@@ -1,6 +1,6 @@
 # Quality Control Dashboard
 
-![Quality_Control_Dashboard.gif](/Resources/images/Quality_Control_Dashboard.gif)
+![Quality_Control_Dashboard.gif](Resources/images/Quality_Control_Dashboard.gif)
 
 ## Introduction
 
@@ -31,7 +31,7 @@ This dataset comprises 6-months of records on manufacturing defects, capturing k
 ### 📉 Charts and Pivot Tables
 #### (1) Defects Per Month - Area Chart
 
-<img src="/Resources/Images/Area_Chart.PNG" width="850" height="550" alt="Area_Chart1.PNG">
+<img src="Resources/Images/Area_Chart.PNG" width="850" height="550" alt="Area_Chart1.PNG">
 
 - 🛠️ **Excel Features:** Area chart that visualizes defect quantities over a 6-month period.
 - 🎨 **Design Choice:** Enhanced readability by shading the area under the line and adding total value labels.
@@ -49,7 +49,7 @@ This dataset comprises 6-months of records on manufacturing defects, capturing k
 
 #### (3) Most Significant Defect - Pivot Table
 
-<img src="/Resources/Images/Product_Table.PNG.PNG" width="850" height="550" alt="Product_Table1.PNG">
+<img src="Resources/Images/Product_Table.PNG.PNG" width="850" height="550" alt="Product_Table1.PNG">
 
 - 🛠️ **Excel Features:** Pivot tables listing product ID by their corresponding repair cost total or defect count.
 - 🎨 **Design Choice:** Incorporated conditional formatting with data bars to better visualize changes in totals.
@@ -58,7 +58,7 @@ This dataset comprises 6-months of records on manufacturing defects, capturing k
 
 #### (4) Repair Cost Breakdown by Severity - Pie Chart
 
-<img src="/Resources/Images/Pie_Chart.PNG" width="850" height="550" alt="Pie_Chart1.PNG">
+<img src="Resources/Images/Pie_Chart.PNG" width="850" height="550" alt="Pie_Chart1.PNG">
 
 - 🛠️ **Excel Features:** Pie chart showing the distribution in repair cost among Severity levels.
 - 🎨 **Design Choice:** Assigned familiar color coding to each Severity level to enhance clarity (Critical = Red, Moderate = Orange, Minor = Green).
@@ -69,8 +69,8 @@ This dataset comprises 6-months of records on manufacturing defects, capturing k
 
 #### (1) Severity with Highest Repair Cost (Pie Chart)
 
-<img src="/Resources/Images/Search2.PNG" width="850" height="550" alt="Search2.PNG">
-<img src="/Resources/Images/Search.PNG" width="850" height="550" alt="Search1.PNG">
+<img src="Resources/Images/Search2.PNG" width="850" height="550" alt="Search2.PNG">
+<img src="Resources/Images/Search.PNG" width="850" height="550" alt="Search1.PNG">
 
 - Function:
     - =INDEX('Pivot Table'!B19:B21,MATCH(MAX('Pivot Table'!C19:C21),'Pivot Table'!C19:C21,0))
@@ -81,7 +81,7 @@ This dataset comprises 6-months of records on manufacturing defects, capturing k
 
 #### (2) Conditional Label Display Formula (Stacked Bar Chart)
 
-<img src="/Resources/Images/Ifs_Statement.gif" width="850" height="550" alt="Ifs_Statement1.PNG">
+<img src="Resources/Images/Ifs_Statement.gif" width="850" height="550" alt="Ifs_Statement1.PNG">
 
 - Function:
     - =IFS(AND(F13="", F14="", F15=""), "", AND(F14="", F15=""), "",TRUE, F13)
@@ -105,7 +105,7 @@ This dataset comprises 6-months of records on manufacturing defects, capturing k
 
 ### 📋 Slicers and Filters ###
 
-<img src="/Resources/Images/Slicer.PNG" width="850" height="550" alt="Slicer1.PNG">
+<img src="Resources/Images/Slicer.PNG" width="850" height="550" alt="Slicer1.PNG">
 
 #### Slicer for Defect Categories: Implemented slicers to sort and aggregate data based on four categories: Defect location, Type, Severity, and Inspection Method. 
 - Key Benefits:
