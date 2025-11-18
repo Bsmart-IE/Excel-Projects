@@ -105,7 +105,7 @@ This dataset comprises 6-months of records on manufacturing defects, capturing k
 
 ### 📋 Slicers and Filters ###
 
-<img src="Resources/Images/Slicer.PNG" width="850" height="550" alt="Slicer1.PNG">
+<img src="Resources/Images/Slicer.PNG" width="350" height="350" alt="Slicer1.PNG">
 
 #### Slicer for Defect Categories: Implemented slicers to sort and aggregate data based on four categories: Defect location, Type, Severity, and Inspection Method. 
 - Key Benefits:
