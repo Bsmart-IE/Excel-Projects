@@ -69,7 +69,7 @@ This dataset comprises 6-months of records on manufacturing defects, capturing k
 
 #### (1) Severity with Highest Repair Cost (Pie Chart)
 
-<img src="Resources/Images/Search2.PNG" width="850" height="550" alt="Search2.PNG">
+<img src="Resources/Images/Search2.PNG" width="650" height="350" alt="Search2.PNG">
 <img src="Resources/Images/Search.PNG" width="850" height="550" alt="Search1.PNG">
 
 - Function:
@@ -81,7 +81,7 @@ This dataset comprises 6-months of records on manufacturing defects, capturing k
 
 #### (2) Conditional Label Display Formula (Stacked Bar Chart)
 
-<img src="Resources/Images/Ifs_Statement.gif" width="850" height="550" alt="Ifs_Statement1.PNG">
+<img src="Resources/Images/Ifs_Statement.gif" width="650" height="350" alt="Ifs_Statement1.PNG">
 
 - Function:
     - =IFS(AND(F13="", F14="", F15=""), "", AND(F14="", F15=""), "",TRUE, F13)
