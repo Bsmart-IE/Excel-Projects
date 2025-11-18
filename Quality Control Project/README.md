@@ -31,7 +31,7 @@ This dataset comprises 6-months of records on manufacturing defects, capturing k
 ### 📉 Charts and Pivot Tables
 #### (1) Defects Per Month - Area Chart
 
-<img src="Resources/Images/Area_Chart.PNG" width="850" height="550" alt="Area_Chart1.PNG">
+<img src="Resources/Images/Area_Chart.PNG" width="650" height="350" alt="Area_Chart1.PNG">
 
 - 🛠️ **Excel Features:** Area chart that visualizes defect quantities over a 6-month period.
 - 🎨 **Design Choice:** Enhanced readability by shading the area under the line and adding total value labels.
@@ -40,7 +40,7 @@ This dataset comprises 6-months of records on manufacturing defects, capturing k
 
 #### (2) Repair Cost by Defect Type and Location - Stacked Bar Chart
 
-<img src="Resources/Images/Bar_Chart.PNG" width="850" height="550" alt="Bar Chart">
+<img src="Resources/Images/Bar_Chart.PNG" width="650" height="350" alt="Bar Chart">
 
 - 🛠️ **Excel Features:** Stacked Bar chart that showcases the total repair cost by Defect Type, with each bar segmented by Defect Location costs.
 - 🎨 **Design Choice:** Included labels for the total and segmented values on each bar to emphasize cost distribution across Defect Types and Locations.
@@ -49,7 +49,7 @@ This dataset comprises 6-months of records on manufacturing defects, capturing k
 
 #### (3) Most Significant Defect - Pivot Table
 
-<img src="Resources/Images/Product_Table.PNG" width="850" height="550" alt="Product_Table1.PNG">
+<img src="Resources/Images/Product_Table.PNG" width="650" height="350" alt="Product_Table1.PNG">
 
 - 🛠️ **Excel Features:** Pivot tables listing product ID by their corresponding repair cost total or defect count.
 - 🎨 **Design Choice:** Incorporated conditional formatting with data bars to better visualize changes in totals.
