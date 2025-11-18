@@ -61,7 +61,7 @@ This dataset comprises 6-months of records on manufacturing defects, capturing k
 <img src="Resources/Images/Pie_Chart.PNG" width="650" height="350" alt="Pie_Chart1.PNG">
 
 - 🛠️ **Excel Features:** Pie chart showing the distribution in repair cost among Severity levels.
-- 🎨 **Design Choice:** Assigned familiar color coding to each Severity level to enhance clarity (Critical = Red, Moderate = Orange, Minor = Green).
+- 🎨 **Design Choice:** Assigned familiar color coding to each Severity level (Critical = Red, Moderate = Orange, Minor = Green).
 - 📊 **Data Representation:** Shows the percentage contribution of each Severity level by total repair costs.
 - 💡 **Insights Gained:** Defect Severity does not appear to differ significantly between each level, which could imply Severity has little impact on cost or the dataset is flawed.
 
