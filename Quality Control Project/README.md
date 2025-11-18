@@ -65,7 +65,7 @@ This dataset comprises 6-months of records on manufacturing defects, capturing k
 - 📊 **Data Representation:** Shows the percentage contribution of each Severity level by total repair costs.
 - 💡 **Insights Gained:** Defect Severity does not appear to differ significantly between each level, which could imply Severity has little impact on cost or the dataset is flawed.
 
-### 🧮 Functions and Formulas
+## 🧮 Functions and Formulas
 
 #### (1) Severity with Highest Repair Cost (Pie Chart)
 
@@ -81,7 +81,7 @@ This dataset comprises 6-months of records on manufacturing defects, capturing k
 
 #### (2) Conditional Label Display Formula (Stacked Bar Chart)
 
-<img src="Resources/Images/Ifs_Statement.gif" width="650" height="350" alt="Ifs_Statement1.PNG">
+<img src="Resources/Images/Ifs_Statement.gif" width="650" height="250" alt="Ifs_Statement1.PNG">
 
 - **Function:**
     - =IFS(AND(F13="", F14="", F15=""), "", AND(F14="", F15=""), "",TRUE, F13)
@@ -103,12 +103,12 @@ This dataset comprises 6-months of records on manufacturing defects, capturing k
 - ="Product"&" "&F3
 
 
-### 📋 Slicers and Filters ###
+## 📋 Slicers and Filters ###
 
-<img src="Resources/Images/Slicer.PNG" width="150" height="250" alt="Slicer1.PNG">
+<img src="Resources/Images/Slicer.PNG" width="150" height="350" alt="Slicer1.PNG">
 
-- ** Slicer for Defect Categories:** Implemented slicers to sort and aggregate data based on four categories: Defect location, Type, Severity, and Inspection Method. 
-- Key Benefits:
+- **Slicer for Defect Categories:** Implemented slicers to sort and aggregate data based on four categories: Defect location, Type, Severity, and Inspection Method. 
+- **Key Benefits:**
     - 🗃️ Dynamic Filtering: Users can seamlessly filter the charts to focus on specific defect categories.
     - 👥 Interactivity: Allows users to interact with the dashboard directly to explore and compare different results.
 
