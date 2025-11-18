@@ -1,6 +1,6 @@
 # Quality Control Dashboard
 
-![Quality_Control_Dashboard.PNG](/Resources/Images/Quality_Control_Dashboard.gif)
+![Quality_Control_Dashboard.PNG](/Resources/images/Quality_Control_Dashboard.gif)
 
 ## Introduction
 
