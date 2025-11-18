@@ -72,7 +72,7 @@ This dataset comprises 6-months of records on manufacturing defects, capturing k
 <img src="Resources/Images/Search2.PNG" width="650" height="350" alt="Search2.PNG">
 <img src="Resources/Images/Search.PNG" width="850" height="550" alt="Search1.PNG">
 
-- Function:
+- **Function:**
     - =INDEX('Pivot Table'!B19:B21,MATCH(MAX('Pivot Table'!C19:C21),'Pivot Table'!C19:C21,0))
 
 - 🔍 **Index Filtering:** Identifies the row in the pivot table’s 2nd column (sum of repair_cost) with the highest repair cost, then returns the corresponding Severity from the 1st column.
@@ -83,7 +83,7 @@ This dataset comprises 6-months of records on manufacturing defects, capturing k
 
 <img src="Resources/Images/Ifs_Statement.gif" width="650" height="350" alt="Ifs_Statement1.PNG">
 
-- Function:
+- **Function:**
     - =IFS(AND(F13="", F14="", F15=""), "", AND(F14="", F15=""), "",TRUE, F13)
     - =IFS(AND(F13="", F14="", F15=""), "", AND(F14="", F15=""), F13,TRUE, F14)
     - =IFS(AND(F13="", F14="", F15=""), "", AND(F14="", F15=""), "",TRUE, F15)
@@ -107,7 +107,7 @@ This dataset comprises 6-months of records on manufacturing defects, capturing k
 
 <img src="Resources/Images/Slicer.PNG" width="350" height="450" alt="Slicer1.PNG">
 
-#### Slicer for Defect Categories: Implemented slicers to sort and aggregate data based on four categories: Defect location, Type, Severity, and Inspection Method. 
+#### Slicer for Defect Categories: ****Implemented slicers to sort and aggregate data based on four categories: Defect location, Type, Severity, and Inspection Method. 
 - Key Benefits:
     - 🗃️ Dynamic Filtering: Users can seamlessly filter the charts to focus on specific defect categories.
     - 👥 Interactivity: Allows users to interact with the dashboard directly to explore and compare different results.
